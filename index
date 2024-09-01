@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="https://kit.fontawesome.com/15cc9124d4.js" crossorigin="anonymous"></script>
+    <!--Fuente de googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <!--<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>-->
+</head>
+
+
+<body>
+    <div class="fondo-animado"></div>
+    <nav>
+        <ul>
+            <img src="IconoTaty.png" style="width: 100px; height: 100px;">
+            <li><a href="#ini">Inicio</a></li>
+            <li><a href="#acercade">Sobre la Fiesta</a></li>
+            <li><a href="#album">Album</a></li>
+            <li><a href="#confirmar">Confirmar</a></li>
+            <li><a href="#lugar">Lugar</a></li>
+        </ul>
+    </nav>
+    <main  class="limitar-ancho">
+        <section id="inicio" >
+            <p> Musica de Fondo  <img src="play-circle-fill.svg" style="width: 50px; height: 50px;"></p>
+            <h1>Te invito a mi fiesta de XV</h1>
+            <p >Este es el contenido de la sección de inicio. 
+                Este párrafo tiene un ancho limitado para mejorar la legibilidad.</p>
+                <p>Fecha.</p>
+                <p>Dirección.</p>
+            
+            <!-- Contador regresivo -->    
+            <table>
+                    <tr>
+                        <th colspan="4">Cuenta regresiva</th>
+                    </tr>
+                    <tr>
+                      <td><span id="days"></span></td>
+                      <td><span id="hours"></span></td>
+                      <td><span id="minutes"></span></td>
+                      <td><span id="seconds"></span></td>
+                    </tr>
+                    <tr>
+                      <th>Días</th>
+                      <th>Horas</th>
+                      <th>Minutos</th>
+                      <th>Segundos</th>
+                    </tr>
+            </table>
+            <!-- Fin contador regresivo -->  
+        </section >
+          
+        <section id="album">
+            <h2>Album</h2>
+             <video witdth="320" height="240" autoplay muted controls> 
+            <source src="C:\Users\frenedosoa\Downloads\prueba html\Taty.mp4" type="video/mp4">
+            No puede reproducir
+            </video>
+        </section>
+  
+        <section id="acercade">
+            <h2>Acerca de la fiesta</h2>
+            <p>Codigo de vestimenta.</p>
+            <a href="https://ar.pinterest.com/agfrenedoso/dress-code-damas/"> <img src="vestido.png" style="width: 150px; height: 150px;"> </a>
+            <a href="https://ar.pinterest.com/agfrenedoso/dress-code-hombre/ "> <img src="Traje.png" style="width: 150px; height: 150px;"> </a>
+            <h2>Sugerir temas musicales.</h2>
+            <a href=" https://forms.gle/zqzN6BsjU5njCTWC7"><img src="musica.png" style="width: 150px; height: 150px;"> </a>
+            <h2>Regalos.</h2>
+            <img src="regalos.png" style="width: 150px; height: 150px;"> 
+        </section>
+
+        <section id="confirmar">
+            <h2>CONFIRMÁ TU ASISTENCIA</h2>
+            <div class="row">
+                <div class="col-md-11 text-center">
+                    <a href="https://wa.me/5491156997462?text=Confirma%20tu%20asistencia%20con%20el%20numero%20de%20lugares." ><h2>whatsapp<img src="whatsapp-fill.svg" style="width: 50px; height: 50px;"></h2>
+                    <p class="text-center">Por favor, confirmame tu asistencia<br> antes del 15/10.</p></a>
+                </div>
+            </div>
+            
+        </section>
+        <section id="lugar">
+            <h2>Lugar</h2>
+            <p>Quantum Multieventos</p>
+            <p>República de Portugal, 2410, Isidro Casanova</p>
+
+            <!--<div id="map">-->
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13120.868585461567!2d-58.5924003!3d-34.6997026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc6671a400d5d%3A0xf5e77e872982b9a2!2sQuantum%20Sal%C3%B3n%20Multieventos!5e0!3m2!1ses-419!2sar!4v1724381396729!5m2!1ses-419!2sar" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>         
+            <p>Cómo Llegar</p>
+            <!--</div>-->
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 tatyfestteen. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
